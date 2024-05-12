@@ -170,3 +170,19 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+
+.pic {
+	transition: 2s;
+}
+
+.pic:hover {
+	position: absolute;
+	right: 100px;
+	bottom: 20px;
+	
+}
+
+.box:hover {
+	rotate: 720deg;
+	transition-duration: 3s;
+}
